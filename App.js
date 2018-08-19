@@ -3,7 +3,6 @@ import { SearchBar } from 'react-native-elements'
 import {
   Platform,
   StyleSheet,
-  Text,
   View,
   ScrollView,
   Image,
@@ -12,7 +11,7 @@ import {
 } from 'react-native';
 import {StackNavigator}   from 'react-navigation';
 import YoutubeViewer      from './YouTubeViewer';
-import SplashScreen from './src/components/SplashScreen';
+import { Container, Header, Content, Footer, FooterTab, Icon, Text, Badge } from 'native-base';
 import { Card, CardSection, Button, Spinner } from './src/components/common';
 
 class App extends Component<{}> {
